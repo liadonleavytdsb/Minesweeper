@@ -6,7 +6,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseButton;
-import javafx.scene.layout.Background;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -77,10 +76,10 @@ public class GUIDriver extends Application {
 					nb.setText("");
 					nb.setStyle("-fx-background-color: #1c7032");
 					nb.setMouseTransparent(false);
-					root.setStyle("");
-					reset.setVisible(false);
 				}
 			}
+			root.setStyle("");
+			reset.setVisible(false);
 		});
 		
 		// Create game tiles and control mouse click events
