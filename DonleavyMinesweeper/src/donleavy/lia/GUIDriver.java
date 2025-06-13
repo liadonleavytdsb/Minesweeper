@@ -29,7 +29,6 @@ public class GUIDriver extends Application {
 	public void start(Stage stage) throws Exception {
 		System.out.println(board);
 		VBox root = new VBox(10);
-		root.setBackground(Background.EMPTY);
 		HBox header = new HBox(10);
 		GridPane gp = new GridPane();
 		gp.setVgap(10);
